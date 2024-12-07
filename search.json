@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "pygenv",
+    "section": "",
+    "text": "Mainly a way to test the nbdev experience but also answering this question:",
+    "crumbs": [
+      "pygenv"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "pygenv",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest:\n$ pip install git+https://github.com/tkukurin/pygenv.git\n# or\n$ conda install -c tkukurin pygenv\n# or\n$ pip install pygenv\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "pygenv"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "pygenv",
+    "section": "Developer Guide",
+    "text": "Developer Guide\n\nInstall pygenv in Development mode\n# make sure pygenv package is installed in development mode\n$ pip install -e .\n# ... make changes under nbs/ directory ...\n# compile to have changes apply to pygenv\n$ nbdev_prepare",
+    "crumbs": [
+      "pygenv"
+    ]
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "import logging\nfrom rich.logging import RichHandler\n\nFORMAT = \"%(message)s\"\nlogging.basicConfig(\n    level=\"NOTSET\",\n    format=FORMAT,\n    datefmt=\"[%X]\",\n    handlers=[RichHandler(show_level=False)]\n)\n\nlog = logging.getLogger(\"rich\")\nlog.info(\"test\")\n\n[17:07:53] test                                &lt;ipython-input-1-53a77fcf14d6&gt;:13\n\n\n\nsource\n\ncli\n\n cli ()\n\n\nsource\n\n\nenv_make_activate\n\n env_make_activate (name:str, verbose:int=&lt;typer.models.OptionInfo object\n                    at 0x7fcae924c190&gt;,\n                    basedir:pathlib.Path=&lt;typer.models.OptionInfo object\n                    at 0x7fcae924cb50&gt;)\n\n\nsource\n\n\nGlobalEnv\n\n GlobalEnv (name:str)\n\ninstance of a globally managed environment\n\nsource\n\n\nsprun\n\n sprun (*args, guard:bool=True, **kwargs)\n\n\nsource\n\n\nProcResult\n\n ProcResult (ok:bool, out:str, err:str,\n             raw:None|subprocess.CompletedProcess=None)",
+    "crumbs": [
+      "core"
+    ]
+  }
+]
