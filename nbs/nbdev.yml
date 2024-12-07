@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "pygenv"
+  site-url: "https://tkukurin.github.io/pygenv"
+  description: "Global envs"
+  repo-branch: main
+  repo-url: "https://github.com/tkukurin/pygenv"
