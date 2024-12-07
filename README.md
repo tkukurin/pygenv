@@ -14,48 +14,19 @@ question](https://bsky.app/profile/howard.fm/post/3lch556wehc24):
 >
 > With something like uv, what do you do?
 
-## Developer Guide
-
-If you are new to using `nbdev` here are some useful pointers to get you
-started.
-
-### Install pygenv in Development mode
-
-``` sh
-# make sure pygenv package is installed in development mode
-$ pip install -e .
-
-# make changes under nbs/ directory
-# ...
-
-# compile to have changes apply to pygenv
-$ nbdev_prepare
-```
-
 ## Usage
 
 ### Installation
 
-Install latest from the GitHub
-[repository](https://github.com/tkukurin/pygenv):
+Install latest:
 
 ``` sh
 $ pip install git+https://github.com/tkukurin/pygenv.git
-```
-
-or from [conda](https://anaconda.org/tkukurin/pygenv)
-
-``` sh
+# or
 $ conda install -c tkukurin pygenv
-```
-
-or from [pypi](https://pypi.org/project/pygenv/)
-
-``` sh
+# or
 $ pip install pygenv
 ```
-
-### Documentation
 
 Documentation can be found hosted on this GitHub
 [repository](https://github.com/tkukurin/pygenv)’s
@@ -63,3 +34,15 @@ Documentation can be found hosted on this GitHub
 package manager specific guidelines on
 [conda](https://anaconda.org/tkukurin/pygenv) and
 [pypi](https://pypi.org/project/pygenv/) respectively.
+
+## Developer Guide
+
+### Install pygenv in Development mode
+
+``` sh
+# make sure pygenv package is installed in development mode
+$ pip install -e .
+# ... make changes under nbs/ directory ...
+# compile to have changes apply to pygenv
+$ nbdev_prepare
+```
