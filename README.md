@@ -41,7 +41,7 @@ package manager specific guidelines on
 
 ``` sh
 # make sure pygenv package is installed in development mode
-$ pip install -e .
+$ pip install --upgrade -e '.[dev]'
 # ... make changes under nbs/ directory ...
 # compile to have changes apply to pygenv
 $ nbdev_prepare
